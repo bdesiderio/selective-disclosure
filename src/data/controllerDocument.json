@@ -1,0 +1,17 @@
+{
+  "@context": "https://w3id.org/security/v2",
+  "id": "did:example:489398593",
+  "verificationMethod": [
+    {
+      "id": "did:example:489398593#test",
+      "controller": "did:example:489398593",
+      "publicKeyBase58": "oqpWYKaZD9M1Kbe94BVXpr8WTdFBNZyKv48cziTiQUeuhm7sBhCABMyYG4kcMrseC68YTFFgyhiNeBKjzdKk9MiRWuLv5H4FFujQsQK2KTAtzU8qTBiZqBHMmnLF4PL7Ytu"
+    }
+  ],
+  "authentication": [
+    "did:example:489398593#test2"
+  ],
+  "assertionMethod": [
+    "did:example:489398593#test"
+  ]
+}
